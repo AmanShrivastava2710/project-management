@@ -1,0 +1,52 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Django migrations
+*/migrations/
+!*/migrations/__init__.py
+
+# SQLite database
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Environment variables
+.env
+*.env
+
+# VS Code settings
+.vscode/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# MacOS and system files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Compiled C extensions
+*.so
+
+# Test coverage reports
+htmlcov/
+.coverage
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Pytest
+.cache/
+
+# pip wheel cache
+pip-wheel-metadata/
